@@ -2,14 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: red;
+    color: #f8e406;
 }
 body{
-    background-color:black;
+    background-color:#9686AD;
 
 }
 #navbar{
-    background-color: #5C4488;
+    background-color: #6c1dc0;
     height: 80px;
     width: 100%;
     display: flex;
@@ -33,7 +33,7 @@ body{
     border-radius: 5px 5px 5px 5px;
     
 #set_color{
-    background-color: rgb(71, 29, 169);
+    background-color: #B3A7C0;
 
     }
     
@@ -53,3 +53,74 @@ a{
 }
 /* Main content */
 /* Only header part complete */
+#image_container{
+    height: 300px;
+    width: 100%;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content:space-evenly;
+    
+    
+}
+.item{
+    border: 2px solid grey;
+    height: 250px;
+    width: 20%;
+    margin-top: 10px;
+    border-radius: 2px;
+    
+    
+}
+#Tiger{
+    background-size: cover;
+    background-image: url('Tiger/Bengal\ \ Tiger.jpg');
+}
+#Bear{
+    background-size: cover;
+    background-image: url('Beer/polar\ bear.jpg');
+}
+
+#Lion{
+    background-size: cover;
+    background-image: url('Lion/African\ Lion.jpg');
+}
+
+#Fox{
+    background-size: cover;
+    background-image: url('Fox/Red\ fox.jpg');
+}
+/* main2 */
+#image_container2{
+    height: 300px;
+    width: 100%;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.item2{
+    border: 2px solid grey;
+    height: 250px;
+    width: 20%;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+/*  */
+#Tiger2{
+    background-size: cover;
+    background-image: url('Tiger/Indochinese\ Tiger.jpg')
+}
+#Bear2{
+    background-size: cover;
+    background-image: url('Beer/american\ black\ bear.jpg');
+}
+
+#Lion2{
+    background-size: cover;
+    background-image: url('Lion/Asiatic\ Lion.jpg');
+}
+
+#Fox2{
+    background-size: cover;
+    background-image: url('Fox/bengal\ fox.jpg');
+}
